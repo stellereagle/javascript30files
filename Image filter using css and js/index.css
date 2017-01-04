@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+:root{
+  --base : #F8D14E;
+  --spacing: 10px;
+  --blur: 1px;
+  }
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2D9FDB;
+  font-family: Roboto;
+  height: 100vh;
+  min-width: 100vw;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+h1{ text-align: center }
+
+h1 span{
+  color : var(--base);
+}
+
+.wrapper{
+  text-align: center;
+  margin: 50px;
+}
+
+.controls{
+  margin-bottom: 50px;
+  font-weight: 100;
+  font-family: 'helvetica neue';
+  font-size: 30px;
+}
+
+input{
+  width: 100px;
+}
+
+input[type="color"]{
+  width: 50px;
+}
+
+.wrapper img{
+  width: 100%;
+  padding: var(--spacing);
+  filter: blur(var(--blur));
+  height: 500px;
+  background: var(--base);
+}
