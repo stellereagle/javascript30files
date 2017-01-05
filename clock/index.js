@@ -1,8 +1,8 @@
-const dom = document
-const secondHand = dom.querySelector('.secondHand')
-const minHand = dom.querySelector('.minHand')
-const hourHand = dom.querySelector('.hourHand')
-const digitalClock = dom.querySelector('.digitalClock')
+const doc = document
+const secondHand = doc.querySelector('.secondHand')
+const minHand = doc.querySelector('.minHand')
+const hourHand = doc.querySelector('.hourHand')
+const digitalClock = doc.querySelector('.digitalClock')
 function setDate () {
   const now = new Date()
   const seconds = now.getSeconds()
