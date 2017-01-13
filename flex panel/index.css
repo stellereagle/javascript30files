@@ -1,0 +1,30 @@
+html{
+	margin: 0px;
+	box-sizing: border-box;
+}
+.wrapper{
+	display: flex;
+	flex-direction: row;
+	min-height: 100vh;
+	overflow: hidden;
+}
+.wrapper > div{
+	flex: 1;
+	text-align: center;
+	align-items: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.panel > * {
+	margin: 0;
+	width: 100%;
+	flex: 1 0 auto;
+	align-items: center;
+	justify-content: center
+}
