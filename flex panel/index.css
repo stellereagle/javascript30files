@@ -1,5 +1,6 @@
-html{
+body{
 	margin: 0px;
+	padding: 0;
 	box-sizing: border-box;
 }
 .wrapper{
@@ -27,4 +28,8 @@ html{
 	flex: 1 0 auto;
 	align-items: center;
 	justify-content: center
+}
+
+.panel.open{
+	flex: 5;
 }
